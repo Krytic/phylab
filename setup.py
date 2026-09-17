@@ -25,7 +25,7 @@ for item in metadata.keys():
         metadata[item] = match.group(1)
 
 setup(name='phylab',
-      license='',
+      license='MIT',
       version=metadata['version'],
       description=description,
       long_description=long_description,
