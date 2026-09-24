@@ -1,7 +1,8 @@
 from setuptools import setup, Extension
 import re
 
-description = 'A python library to do some simple physics calculations.'
+description = ('A python library to do some simple physics calculations, '
+               'for the UoA Physics undergraduate laboratory.')
 
 try:
     with open('README.md', 'r', encoding='utf-8') as f:
