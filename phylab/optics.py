@@ -68,7 +68,7 @@ def photocalib(flnm, width):
 
     Parameters
     ----------
-    flnm : str
+    filename : str
         Path to the JPEG (or other image) file showing the ruler.
     width : float
         The known physical length of the marked distance, in whatever
@@ -80,7 +80,7 @@ def photocalib(flnm, width):
         The physical width represented by one pixel, in the same units
         as ``width``.
     """
-    img = mpimg.imread(flnm)
+    img = mpimg.imread(filename)
     fig = plt.figure()
     plt.imshow(img)
 
